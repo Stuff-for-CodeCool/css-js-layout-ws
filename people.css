@@ -98,6 +98,10 @@ aside.show {
         width: 50%;
         transform: translate(-50%, -50%);
     }
+
+    dl {
+        grid-template-columns: 1fr 3fr;
+    }
 }
 
 button {
@@ -113,7 +117,8 @@ button {
     border-radius: 0.5em;
 }
 
-.card img {
+.card img,
+.details img {
     border-radius: 50%;
     border: 1px solid;
     padding: 0.2em;
@@ -127,4 +132,43 @@ button {
 .card p,
 button {
     cursor: pointer;
+}
+
+.card:hover {
+    margin-top: -0.4em;
+    margin-bottom: 0.4em;
+    box-shadow: 0 0.6em 0.5em #888;
+}
+
+.details {
+    text-align: center;
+}
+
+.details p {
+    margin: 0;
+}
+
+.details p:nth-child(3) {
+    font-weight: bold;
+}
+
+dl {
+    display: grid;
+    width: 100%;
+}
+
+dt {
+    font-weight: bold;
+    text-align: left;
+}
+
+dd {
+    text-align: right;
+    margin: 0;
+}
+
+a,
+.card,
+aside {
+    transition: all 0.5s;
 }
