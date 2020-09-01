@@ -35,3 +35,28 @@ header {
 footer {
     text-align: center;
 }
+
+@media (min-width: 460px) {
+    body {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-rows: 2em 1fr 2em;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    #loadMen {
+        margin-left: auto;
+        margin-right: 1em;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

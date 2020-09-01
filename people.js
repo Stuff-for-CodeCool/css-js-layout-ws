@@ -117,4 +117,4 @@ const init = () => {
     });
 };
 
-// init();
+init();
