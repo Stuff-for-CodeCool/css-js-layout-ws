@@ -1,0 +1,14 @@
+html {
+    color: #333;
+    font: 16px / 1.62 sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4caf50;
+}
+
+a:hover {
+    color: #1b5e20;
+}
