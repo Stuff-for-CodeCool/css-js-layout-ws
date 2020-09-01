@@ -107,7 +107,7 @@ womenLoader.addEventListener("click", (e) => {
     load("female");
 });
 
-cont init = () => {
+const init = () => {
     load();
 
     document.body.addEventListener("keyup", (e) => {
@@ -115,6 +115,6 @@ cont init = () => {
             hidePopup(e);
         }
     });
-}
+};
 
 // init();
